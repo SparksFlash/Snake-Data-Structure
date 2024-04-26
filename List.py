@@ -18,3 +18,11 @@ letters[0] = "A"
 # print(letters[::2])
 # print(numbers[::2])
 # print(numbers[::-1])
+
+
+# List unpacking
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# first, second, third = numbers
+first, *others, last = numbers
+print(first, last)
+print(others)
