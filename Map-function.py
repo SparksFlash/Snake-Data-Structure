@@ -13,3 +13,7 @@ items = [
 x = map(lambda item: item[1], items)
 for item in x:
     print(item)
+
+
+prices = list(map(lambda item: item[1], items))
+print(prices)
