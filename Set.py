@@ -9,3 +9,6 @@ print(uniques | second)
 print(uniques & second)
 print(uniques - second)
 print(uniques ^ second)
+
+if 1 in uniques:
+    print("Yes")
