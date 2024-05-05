@@ -7,3 +7,5 @@ second = {1, 7, 8, 6}
 # Union and Intersection
 print(uniques | second)
 print(uniques & second)
+print(uniques - second)
+print(uniques ^ second)
