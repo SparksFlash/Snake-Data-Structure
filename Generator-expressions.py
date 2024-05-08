@@ -6,5 +6,8 @@ for x in values:
     print(x)
 
 
-test = (x * 2 for x in range(1000))
+test = (x * 2 for x in range(100000))
 print("Gen :", getsizeof(test))
+
+values = [x * 2 for x in range(100000)]
+print("list :", getsizeof(values))
