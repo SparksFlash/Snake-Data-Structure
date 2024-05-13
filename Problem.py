@@ -12,4 +12,5 @@ for char in sentence:
         char_frequency[char] = 1
 # pprint(char_frequency)
 
-print(sorted(char_frequency.items()))
+sorted_char_frequency = sorted(char_frequency.items(), key=lambda kv: kv[1])
+print(sorted_char_frequency)
