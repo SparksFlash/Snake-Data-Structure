@@ -10,4 +10,6 @@ for char in sentence:
         char_frequency[char] += 1
     else:
         char_frequency[char] = 1
-pprint(char_frequency)
+# pprint(char_frequency)
+
+print(sorted(char_frequency.items()))
